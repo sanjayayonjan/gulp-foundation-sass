@@ -1,0 +1,16 @@
+@import '../partials/variables';
+@import '../partials/mixins';
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.header.sticky {
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 999;
+	padding: 10px 0;
+	box-shadow: 0 0 3px 0 #eee;
+}
+ 
